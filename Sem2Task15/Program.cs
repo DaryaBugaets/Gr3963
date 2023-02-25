@@ -6,43 +6,46 @@
 // 1 -> нет
 // * Сделать вариант с использованием конструкции Dictionary
 
+// Console.Write("Введите день недели-");
+// int num = int.Parse(Console.ReadLine()??"0");
+// if(num>5 && num<8)
+// {
+//     Console.WriteLine("Это выходной день");
+// }
+// else
+// if(num>0 && num<6)
+// {
+//     Console.WriteLine("Это будний день");
+// }
+// else
+// {
+//     Console.WriteLine("Это не день недели");
+// }
+
+
+
+// *
+Dictionary<int, string> daysOfWeek = new Dictionary<int, string>();
+
+// Добавляем дни недели в словарь
+daysOfWeek.Add (1, "Понедельник-будний день");
+daysOfWeek.Add (2, "Вторник-будний день");
+daysOfWeek.Add (3, "Среда-будний день");
+daysOfWeek.Add (4, "Четверг-будний день");
+daysOfWeek.Add (5, "Пятница-будний день");
+daysOfWeek.Add (6, "Суббота-выходной день");
+daysOfWeek.Add (7, "Воскресенье-выходной день");
+// Просим ввести день недели
 Console.Write("Введите день недели-");
-int num = int.Parse(Console.ReadLine()??"0");
-if(num>5 && num<8)
+int dayOfWeek=int.Parse(Console.ReadLine()??"0");
+if(daysOfWeek.ConstainsKey(dayOfWeek))
 {
-    Console.WriteLine("Это выходной день");
-}
-else
-if(num>0 && num<6)
-{
-    Console.WriteLine("Это будний день");
+    Console.WriteLine(daysOfWeek[dayOfWeek]);
 }
 else
 {
     Console.WriteLine("Это не день недели");
 }
-
-
-
-// *
-// Console.Write("Введите день недели-");
-// var Week = new Dictionary<int, string>();
-// Week.
-// Week.Add ("1", "Понедельник-будний день");
-// Console.WriteLine("Это будний день");
-// Week.Add ("2", "Вторник-будний день");
-// Console.WriteLine("Это будний день");
-// Week.Add ("3", "Среда-будний день");
-// Console.WriteLine("Это будний день");
-// Week.Add ("4", "Четверг-будний день");
-// Console.WriteLine("Это будний день");
-// Week.Add ("5", "Пятница-будний день");
-// Console.WriteLine("Это будний день");
-// Week.Add ("6", "Суббота-выходной день");
-// Console.WriteLine("Это выходной день");
-// Week.Add ("7", "Воскресенье-выходной день");
-// Console.WriteLine("Это выходной день");
-
 
 // выдает сразу все???
 // Console.Write("Введите день недели-");
