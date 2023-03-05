@@ -1,0 +1,15 @@
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\Sem4Task24.csproj.AssemblyReference.cache
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\Sem4Task24.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\Sem4Task24.AssemblyInfoInputs.cache
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\Sem4Task24.AssemblyInfo.cs
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\Sem4Task24.csproj.CoreCompileInputs.cache
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\bin\Debug\net6.0\Sem4Task24.exe
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\bin\Debug\net6.0\Sem4Task24.deps.json
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\bin\Debug\net6.0\Sem4Task24.runtimeconfig.json
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\bin\Debug\net6.0\Sem4Task24.dll
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\bin\Debug\net6.0\Sem4Task24.pdb
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\Sem4Task24.dll
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\refint\Sem4Task24.dll
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\Sem4Task24.pdb
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\Sem4Task24.genruntimeconfig.cache
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem4Task24\obj\Debug\net6.0\ref\Sem4Task24.dll
