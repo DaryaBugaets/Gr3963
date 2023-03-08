@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IT\\07-15. Знакомство с языками программирования\\01\\Gruppa3963\\SemTask30\\SemTask30.csproj",
+      "projectUniqueName": "D:\\IT\\07-15. Знакомство с языками программирования\\01\\Gruppa3963\\Sem4Task30\\SemTask30.csproj",
       "projectName": "SemTask30",
-      "projectPath": "D:\\IT\\07-15. Знакомство с языками программирования\\01\\Gruppa3963\\SemTask30\\SemTask30.csproj",
+      "projectPath": "D:\\IT\\07-15. Знакомство с языками программирования\\01\\Gruppa3963\\Sem4Task30\\SemTask30.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\IT\\07-15. Знакомство с языками программирования\\01\\Gruppa3963\\SemTask30\\obj\\",
+      "outputPath": "D:\\IT\\07-15. Знакомство с языками программирования\\01\\Gruppa3963\\Sem4Task30\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
