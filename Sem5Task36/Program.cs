@@ -37,7 +37,7 @@ void Print1DArray(int[]arr)
     Console.WriteLine("]");
 }
 
-int[] OddSum (int[] arr)
+int OddSum (int[] arr)
 {
     int sum = 0;
     for(int i = 1; i < arr.Length; i=i+2)   
@@ -52,7 +52,7 @@ int[] OddSum (int[] arr)
 
 int[] testArr = Gen1DArray(13, 1, 9);
 Print1DArray(testArr);
-int[] sum = OddSum (testArr);
+int sum = OddSum (testArr);
 PrintData(sum.ToString());
 
 
