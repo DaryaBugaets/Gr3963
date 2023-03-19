@@ -1,0 +1,15 @@
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\bin\Debug\net6.0\Sem6Task45.exe
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\bin\Debug\net6.0\Sem6Task45.deps.json
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\bin\Debug\net6.0\Sem6Task45.runtimeconfig.json
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\bin\Debug\net6.0\Sem6Task45.dll
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\bin\Debug\net6.0\Sem6Task45.pdb
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\Sem6Task45.csproj.AssemblyReference.cache
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\Sem6Task45.GeneratedMSBuildEditorConfig.editorconfig
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\Sem6Task45.AssemblyInfoInputs.cache
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\Sem6Task45.AssemblyInfo.cs
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\Sem6Task45.csproj.CoreCompileInputs.cache
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\Sem6Task45.dll
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\refint\Sem6Task45.dll
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\Sem6Task45.pdb
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\Sem6Task45.genruntimeconfig.cache
+D:\IT\07-15. Знакомство с языками программирования\01\Gruppa3963\Sem6Task45\obj\Debug\net6.0\ref\Sem6Task45.dll
