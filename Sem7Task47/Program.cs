@@ -29,7 +29,8 @@ double [,] Gen2DArr2(int countRow, int countColumn, int min, int max)
     {
         for (int j = 0; j < countColumn; j++)
         {
-            arr[i, j] = rnd.Next(min, max)+new Random().NextDouble();
+            // и округление до 2 знаков
+            arr[i, j] = Math.Round(rnd.Next(min, max)+new Random().NextDouble(),2);
         }
     }
     return arr;

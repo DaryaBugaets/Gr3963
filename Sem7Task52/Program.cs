@@ -2,7 +2,8 @@
 // Найдите среднее арифметическое элементов в каждом столбце.
 
 
-int[,] Gen2DArr(int countRow, int countColumn, int min, int max)
+double [,] Gen2DArr(int countRow, int countColumn, int min, int max)
+// int[,] Gen2DArr(int countRow, int countColumn, int min, int max)
 {
     // Корректировка входных данных
     if (min > max)
@@ -12,18 +13,21 @@ int[,] Gen2DArr(int countRow, int countColumn, int min, int max)
         max = buf;
     }
     Random rnd = new Random();
-    int[,] arr = new int[countRow, countColumn];
+    double[,] arr = new double[countRow, countColumn];
+    // int[,] arr = new int[countRow, countColumn];
     for (int i = 0; i < countRow; i++)
     {
         for (int j = 0; j < countColumn; j++)
         {
-            arr[i, j] = rnd.Next(min, max + 1);
+            arr[i, j] = Math.Round(rnd.Next(min, max + 1)+rnd.NextDouble(),2);
+            // arr[i, j] = rnd.Next(min, max + 1);
         }
     }
     return arr;
 }
 
-void Print2DArr(int[,] arr)
+void Print2DArr(double[,] arr)
+// void Print2DArr(int[,] arr)
 {
     ConsoleColor[] col = new ConsoleColor[]
     {
@@ -56,8 +60,8 @@ void Print2DArr(int[,] arr)
         Console.WriteLine();
     }
 }
-double [] ColMean2DArr(int[,] arr)
-
+double [] ColMean2DArr(double[,] arr)
+// double [] ColMean2DArr(int[,] arr)
 {
     double[] resArr = new double[arr.GetLength(1)];
     for (int j = 0; j < arr.GetLength(1); j++)
@@ -66,13 +70,18 @@ double [] ColMean2DArr(int[,] arr)
         {
             resArr[j] += arr[i, j];
         }
-        resArr[j] = resArr[j] / arr.GetLength(0);
+        resArr[j] = Math.Round(resArr[j] / arr.GetLength(0),2);
+        // resArr[j] = resArr[j] / arr.GetLength(0);
     }
     return resArr;
 }
 
-double[] arr2D = Gen2DArr(5, 10, 99, 100);
+double[,] arr2D = Gen2DArr(5, 10, 99, 100);
+// double[] arr2D = Gen2DArr(5, 10, 99, 100);
 Print2DArr(arr2D);
 Console.WriteLine();
 ColMean2DArr(arr2D);
-Console.WriteLine($"Среднее арифмеическое элементов в каждом столбце:{ColMean2DArr}");
+Console.WriteLine($"Среднее арифметическое элементов в каждом столбце:{string.Join(",",ColMean2DArr(arr2D))}");
+// Console.WriteLine($"Среднее арифметическое элементов в каждом столбце:{ColMean2DArr}");
+
+
