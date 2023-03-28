@@ -51,38 +51,34 @@ void Sort2DArray(int[,]matr)
         {
            row[j] = matr[i,j];
         }
-    }
-}
-
-
-void BubbleSort(int[] row)
-{
-    int sort=new int [row.Len];
-    for(int i=0; i<row.Len;i++)
-    {
-        for (int j = 0; j < row.Len; j++)
+        row=BubbleSort(row);
+        for (int j = 0; j < matr.GetLength(1); j++)
         {
-            if(row[j]>row[j+1])
-            {
-                int buf=row[j];
-                row[j]=row[j+1];
-                row[j+1]=buf;
-            }
+           matr[i, j]=row[j]; 
         }
     }
 }
-//     for (int j = 0; j < row.len; j++)
-//         {
-//                        matr[i,j]=row[j];
-//                     }
-//     }
-// }
-
+void BubbleSort(int[] mas)
+{
+    int temp;
+    for(int i=0; i<mas.Length;i++)
+    {
+        for (int j = 0; j < mas.Length; j++)
+        {
+            if(mas[i]>mas[j])
+            {
+                temp=mas[i];
+                mas[i]=mas[j];
+                mas[j]=temp;
+            }
+        }
+    }
+    return;
+}
 int m = ReadData("Введите количество строк: ");
 int n = ReadData("Введите количество столбцов: ");
-int[,] matrix = Gen2DArray[10,10,1,100];
+int[,] matrix = new int[10,10];
+Gen2DArray(matrix, 1, 100);
 Print2DArray(matrix);
 Sort2DArray(matrix);
-
-BubbleSort(matrix);
 Print2DArray(matrix);
